@@ -1,0 +1,11 @@
+# os
+.DS_Store
+Thumbs.db
+
+# secrets
+secrets/private.nix
+
+# build junk
+result
+
+

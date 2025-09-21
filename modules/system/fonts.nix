@@ -1,0 +1,29 @@
+{ pkgs, env, ... }:
+{
+  fonts.packages = with pkgs; [
+    dejavu_fonts
+    fira-code
+    fira-code-symbols
+    font-awesome
+    hackgen-nf-font
+    ibm-plex
+    inter
+    jetbrains-mono
+    maple-mono.NF
+    material-icons
+    minecraftia
+    nerd-fonts.blex-mono
+    nerd-fonts.fira-code
+    nerd-fonts.fira-mono
+    nerd-fonts.im-writing
+    noto-fonts
+    noto-fonts-cjk-sans
+    noto-fonts-cjk-serif
+    noto-fonts-emoji
+    noto-fonts-monochrome-emoji
+    powerline-fonts
+    roboto
+    roboto-mono
+    terminus_font
+  ];
+}
