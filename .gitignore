@@ -5,6 +5,9 @@ Thumbs.db
 # secrets
 secrets/private.nix
 
+# environment
+env.nix
+
 # build junk
 result
 
